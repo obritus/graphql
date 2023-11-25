@@ -1,0 +1,16 @@
+type Entregador {
+	_id: ID
+	email: String
+	nome: String
+	cpf: String
+	cnh: String
+	telefone: String
+	expires: String
+	createdAt: String
+	updatedAt: String
+	active: Boolean
+}
+
+type Query {
+	entregadores: [Entregador]
+}
